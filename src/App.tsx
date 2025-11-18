@@ -1,11 +1,13 @@
 import React from "react";
 import { Button } from "./components/ui/button";
+import { BrowserRouter } from "react-router-dom";
+import Layout from "./components/Layout";
 
 const App = () => {
   return (
-    <div>
-      <Button>Subscribe</Button>
-    </div>
+    <BrowserRouter>
+      <Layout>Hello</Layout>
+    </BrowserRouter>
   );
 };
 
